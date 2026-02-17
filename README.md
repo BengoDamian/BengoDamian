@@ -1,16 +1,31 @@
-## Hi there 👋
+# Damián Bengochea
 
-<!--
-**BengoDamian/BengoDamian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Desarrollo productos digitales (SaaS / automatizaciones) con foco en ejecución rápida, UX clara y backends mantenibles.
 
-Here are some ideas to get you started:
+## Productos (código privado)
+### Quirvo — QR timbre + notificaciones + chat (WIP / MVP en desarrollo)
+Hoy ya funciona para un edificio real: visitante → timbre → notificación (Telegram/PWA) → chat → cierre automático.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Puertas/unidades (edificio/casa) + carga batch de unidades
+- Roles: PUERTA_ADMIN / UNIDAD_ADMIN / RESIDENTE
+- Preferencias: Push / Telegram / Ambos
+- Timbre con geolocalización (geofence por radio)
+- Eventos + chat por evento (mensajes persistidos)
+- Notificaciones: Telegram + Web Push/PWA
+- Anti-ruido: cooldown + auto-cierre por limpieza
+- Deep links desde Telegram a timbre/chat
+
+👉 Case study (sin código): ver `portfolio`
+
+### MercadoLibre Pricing Calculator (Privado)
+Webapp para calcular precio de venta según costo, margen, comisiones, cuotas y descuentos manteniendo rentabilidad.
+👉 Case study (sin código): ver `portfolio`
+
+## Portfolio (público, sin código)
+- `portfolio` — Case studies + capturas + arquitectura (alto nivel)
+
+## Stack
+Next.js, TypeScript, Tailwind, Supabase (Auth/Postgres), Vercel/Cloudflare, Telegram Bot, PWA/Web Push.
+
+## Contacto
+- Email: dbengotech@gmail.com  
