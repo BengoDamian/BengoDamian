@@ -1,59 +1,50 @@
 # Damián Bengochea
 
-Diseño y construyo **sistemas tecnológicos para negocios digitales**.  
-Arquitectura escalable, automatización con criterio y productos reales en producción.
-
-Mi enfoque no es “hacer bots”.  
-Es diseñar sistemas que **no se rompan cuando crecen**.
-
----
-
-## En qué me especializo
-
-- Arquitectura de SaaS y sistemas internos
-- Automatización con control de riesgo
-- Integraciones (APIs, bots, notificaciones, pagos)
-- Autenticación, permisos y control de acceso
-- Diseño con fallback y reducción de single points of failure
+Desarrollo productos digitales (**SaaS** y **automatizaciones**) con foco en **ejecución rápida**, **UX clara** y backends **mantenibles**.
 
 ---
 
 ## Productos (código privado)
 
-### Quirvo — Acceso con QR + eventos + notificaciones (MVP)
-Implementado en un edificio real.
+### Quirvo — QR timbre + notificaciones + chat (WIP / MVP)
 
-**Flujo:** visitante → timbre → evento → notificación → chat → cierre automático  
-**Claves:** modelo orientado a eventos, roles granulares, canales de notificación desacoplados (Telegram/Web Push), anti-spam, deep links, geofence.
+Hoy ya funciona para un edificio real:  
+**visitante → timbre → notificación (Telegram/PWA) → chat → cierre automático**
 
-➡️ Case study: `portfolio / Quirvo`
+**Features:**
+- Puertas/unidades (edificio/casa) + carga batch de unidades
+- Roles: **PUERTA_ADMIN** / **UNIDAD_ADMIN** / **RESIDENTE**
+- Preferencias por usuario: Push / Telegram / Ambos
+- Timbre con geolocalización (geofence por radio)
+- Eventos + chat por evento (mensajes persistidos)
+- Notificaciones: Telegram + Web Push/PWA
+- Anti-ruido: cooldown + auto-cierre por limpieza
+- Deep links desde Telegram a timbre/chat
+
+➡️ Case study (sin código): https://github.com/BengoDamian/portfolio/blob/main/case-studies/quirvo.md
 
 ---
 
-### Calculadora ML — Motor de pricing MercadoLibre (privado)
-Capa de decisión para proteger margen con comisiones, cuotas y descuentos.
+### Calculadora ML (MercadoLibre Pricing Calculator) — Privado
 
-**Enfoque:** motor parametrizable, reglas de negocio separadas de UI, base lista para escalar a SaaS multiusuario.
+Webapp para calcular precio de venta según **costo**, **margen**, **comisiones**, **cuotas** y **descuentos**, manteniendo rentabilidad.
 
-➡️ Case study: `portfolio / Calculadora ML`
+➡️ Case study (sin código): https://github.com/BengoDamian/portfolio/blob/main/case-studies/mercadolibre-pricing-calculator.md
 
 ---
 
-## Filosofía de diseño
+## Portfolio (público, sin código)
 
-- Todo flujo crítico necesita estados, visibilidad y fallback.
-- Los permisos y accesos son parte de la arquitectura, no un detalle.
-- Escalar es simplificar, no conectar herramientas sin control.
+- Repo: https://github.com/BengoDamian/portfolio
 
 ---
 
 ## Stack
 
-Next.js · TypeScript · Tailwind  
-Supabase (Auth + Postgres) · Vercel/Cloudflare · Telegram Bot API · PWA/Web Push
+Next.js, TypeScript, Tailwind, Supabase (Auth/Postgres), Vercel/Cloudflare, Telegram Bot, PWA/Web Push, MercadoPago.
 
 ---
 
 ## Contacto
 
-dbengotech@gmail.com
+- Email: dbengotech@gmail.com
