@@ -3,7 +3,8 @@
 Desarrollo productos digitales (SaaS / automatizaciones) con foco en ejecución rápida, UX clara y backends mantenibles.
 
 ## Productos (código privado)
-### Quirvo — QR timbre + notificaciones + chat (WIP / MVP en desarrollo)
+
+### Quirvo — QR timbre + notificaciones + chat (WIP / MVP)
 Hoy ya funciona para un edificio real: visitante → timbre → notificación (Telegram/PWA) → chat → cierre automático.
 
 - Puertas/unidades (edificio/casa) + carga batch de unidades
@@ -15,11 +16,12 @@ Hoy ya funciona para un edificio real: visitante → timbre → notificación (T
 - Anti-ruido: cooldown + auto-cierre por limpieza
 - Deep links desde Telegram a timbre/chat
 
-👉 Case study (sin código): ver `portfolio`
+➡️ Case study (sin código): **portfolio / Quirvo**
 
-### MercadoLibre Pricing Calculator (Privado)
+### Calculadora ML (MercadoLibre Pricing Calculator) — Privado
 Webapp para calcular precio de venta según costo, margen, comisiones, cuotas y descuentos manteniendo rentabilidad.
-👉 Case study (sin código): ver `portfolio`
+
+➡️ Case study (sin código): **portfolio / Calculadora ML**
 
 ## Portfolio (público, sin código)
 - `portfolio` — Case studies + capturas + arquitectura (alto nivel)
@@ -28,4 +30,4 @@ Webapp para calcular precio de venta según costo, margen, comisiones, cuotas y 
 Next.js, TypeScript, Tailwind, Supabase (Auth/Postgres), Vercel/Cloudflare, Telegram Bot, PWA/Web Push.
 
 ## Contacto
-- Email: dbengotech@gmail.com  
+- Email: dbengotech@gmail.com
