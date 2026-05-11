@@ -2,10 +2,11 @@
 
 Desarrollo productos digitales, automatizaciones y sistemas web enfocados en resolver problemas operativos reales.
 
-Construyo MVPs y herramientas internas con foco en:
+Construyo MVPs, herramientas internas y plataformas administrables con foco en:
 - ejecución rápida
 - UX clara
 - arquitectura mantenible
+- automatización
 - integración con servicios reales
 
 ---
@@ -14,14 +15,16 @@ Construyo MVPs y herramientas internas con foco en:
 
 - SaaS y MVPs
 - Automatizaciones
+- Sistemas internos
+- Plataformas administrables
 - Paneles administrativos
 - PWAs
 - Integraciones con APIs
-- Sistemas internos para operaciones
-- Bots (Telegram / notificaciones)
-- Flujos con pagos y autenticación
-- Plataformas administrables
+- Bots y notificaciones
 - Herramientas para e-commerce
+- Directorios y marketplaces simples
+- Sistemas con autenticación, pagos y roles
+- Landing pages orientadas a conversión
 
 ---
 
@@ -29,32 +32,37 @@ Construyo MVPs y herramientas internas con foco en:
 
 ### Quirvo — QR timbre + notificaciones + chat
 
+Sistema de timbre QR con notificaciones y chat en tiempo real para edificios y casas.
+
 Hoy ya funciona para un edificio real:
 
 **visitante → timbre → notificación → chat → cierre automático**
 
 #### Features
 
-- Puertas/unidades (edificio/casa) + carga batch de unidades
+- Puertas/unidades (edificio/casa)
+- Carga batch de unidades
 - Roles: **PUERTA_ADMIN** / **UNIDAD_ADMIN** / **RESIDENTE**
 - Preferencias por usuario: Push / Telegram / Ambos
 - Timbre con geolocalización (geofence por radio)
-- Eventos + chat por evento (mensajes persistidos)
+- Eventos + chat persistente por evento
 - Notificaciones: Telegram + Web Push/PWA
 - Anti-ruido: cooldown + auto-cierre por limpieza
-- Deep links desde Telegram a timbre/chat
+- Deep links desde Telegram hacia timbre/chat
+- Realtime updates
 
 #### Arquitectura / conceptos implementados
 
 - Sistema orientado a eventos
-- Realtime updates
-- Geofencing por radio
 - Roles y permisos
-- Notificaciones multicanal
-- Deep links
+- Realtime communication
 - Persistencia de eventos/mensajes
-- Limpieza automática de eventos
+- Geofencing por radio
+- Notificaciones multicanal
 - PWA + Web Push
+- Deep linking
+- Limpieza automática de eventos
+- Arquitectura fullstack mantenible
 
 ➡️ Case study (sin código):  
 https://github.com/BengoDamian/portfolio/blob/main/case-studies/quirvo.md
@@ -78,7 +86,17 @@ manteniendo rentabilidad real.
 - Simulación de cuotas y descuentos
 - Ajuste por comisión de MercadoLibre
 - Control de margen final
+- Validación de rentabilidad
 - Lógica orientada a sellers reales
+
+#### Conceptos trabajados
+
+- lógica comercial
+- automatización de cálculos
+- validación de márgenes
+- UX orientada a velocidad
+- integración de pagos/suscripciones
+- arquitectura SaaS
 
 ➡️ Case study (sin código):  
 https://github.com/BengoDamian/portfolio/blob/main/case-studies/mercadolibre-pricing-calculator.md
@@ -107,16 +125,24 @@ Reducir decisiones manuales y acelerar validación de productos rentables.
 
 Plataforma web para encontrar proveedores y servicios disponibles fuera de horarios habituales.
 
+Inspirado en un problema operativo real:
+encontrar gente que trabaja “cuando otros descansan”.
+
 #### Funcionalidades
 
 - Listado público por rubros/categorías
 - Buscador de proveedores
 - Contacto directo por WhatsApp/email
 - Solicitud para aparecer en el directorio
-- Panel admin para gestionar proveedores, categorías y solicitudes
+- Panel admin para gestionar:
+  - proveedores
+  - categorías
+  - solicitudes
 - Sistema de aprobación de proveedores
 - Upload de documentación opcional
 - Métricas de visitas y categorías más consultadas
+- Sistema de autenticación
+- Emails transaccionales
 
 #### Arquitectura / conceptos implementados
 
@@ -124,9 +150,12 @@ Plataforma web para encontrar proveedores y servicios disponibles fuera de horar
 - Prisma ORM
 - PostgreSQL / Supabase
 - Auth.js / NextAuth
-- Resend para emails transaccionales
+- Resend
 - Supabase Storage
 - Vercel
+- Server Actions
+- Panel administrativo privado
+- Arquitectura fullstack mantenible
 
 ---
 
@@ -138,12 +167,13 @@ Sistema web para inmobiliaria con catálogo de propiedades y panel privado de ge
 
 - Listado público de propiedades
 - Detalle de propiedad
-- Filtros básicos por operación/zona/tipo
+- Filtros por operación/zona/tipo
 - Panel admin privado
 - Alta, edición y baja de propiedades
-- Carga de imágenes
+- Carga y administración de imágenes
 - Gestión de datos comerciales
 - Captura de consultas/leads
+- Plataforma administrable orientada a uso real
 
 #### Arquitectura / conceptos implementados
 
@@ -154,6 +184,8 @@ Sistema web para inmobiliaria con catálogo de propiedades y panel privado de ge
 - PostgreSQL / Supabase
 - Auth.js / NextAuth
 - Storage para imágenes
+- Server Actions
+- Arquitectura fullstack mantenible
 - Vercel
 
 ---
@@ -173,6 +205,7 @@ Siempre priorizando:
 - velocidad
 - mantenimiento razonable
 - UX simple
+- foco operativo antes que sobreingeniería
 
 ---
 
@@ -185,6 +218,11 @@ Siempre priorizando:
 - Arquitecturas fullstack mantenibles
 - Desarrollo end-to-end
 - Integración con APIs y servicios externos
+- Gestión de autenticación y sesiones
+- Automatizaciones
+- PWAs y Web Push
+- Integración de pagos
+- Diseño de flujos operativos simples
 
 ---
 
@@ -198,6 +236,10 @@ Prioridad:
 - UX simple
 - automatización
 - mantenimiento razonable
+- resolver problemas reales
+
+No me interesa complejidad innecesaria.
+Prefiero sistemas simples, entendibles y que puedan mantenerse y evolucionar rápido.
 
 ---
 
