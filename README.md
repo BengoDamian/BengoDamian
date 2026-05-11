@@ -25,7 +25,7 @@ Construyo MVPs y herramientas internas con foco en:
 
 ---
 
-## Productos (código privado)
+## Productos y proyectos
 
 ### Quirvo — QR timbre + notificaciones + chat
 
@@ -103,6 +103,61 @@ Reducir decisiones manuales y acelerar validación de productos rentables.
 
 ---
 
+### Siempre de Guardia — Directorio administrable de proveedores
+
+Plataforma web para encontrar proveedores y servicios disponibles fuera de horarios habituales.
+
+#### Funcionalidades
+
+- Listado público por rubros/categorías
+- Buscador de proveedores
+- Contacto directo por WhatsApp/email
+- Solicitud para aparecer en el directorio
+- Panel admin para gestionar proveedores, categorías y solicitudes
+- Sistema de aprobación de proveedores
+- Upload de documentación opcional
+- Métricas de visitas y categorías más consultadas
+
+#### Arquitectura / conceptos implementados
+
+- Next.js App Router
+- Prisma ORM
+- PostgreSQL / Supabase
+- Auth.js / NextAuth
+- Resend para emails transaccionales
+- Supabase Storage
+- Vercel
+
+---
+
+### Plataforma inmobiliaria administrable
+
+Sistema web para inmobiliaria con catálogo de propiedades y panel privado de gestión.
+
+#### Funcionalidades
+
+- Listado público de propiedades
+- Detalle de propiedad
+- Filtros básicos por operación/zona/tipo
+- Panel admin privado
+- Alta, edición y baja de propiedades
+- Carga de imágenes
+- Gestión de datos comerciales
+- Captura de consultas/leads
+
+#### Arquitectura / conceptos implementados
+
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
+- Prisma ORM
+- PostgreSQL / Supabase
+- Auth.js / NextAuth
+- Storage para imágenes
+- Vercel
+
+---
+
 ## Sistemas web y landings
 
 También desarrollo:
@@ -158,15 +213,17 @@ Prioridad:
 ### Frontend
 
 - Next.js
+- React
 - TypeScript
 - Tailwind CSS
 - PWA / Web Push
 
-### Backend
+### Backend / Base de datos
 
 - Supabase
 - PostgreSQL
-- Auth
+- Prisma ORM
+- Auth.js / NextAuth
 - Server Actions / APIs
 
 ### Infraestructura
@@ -178,6 +235,7 @@ Prioridad:
 
 - Telegram Bot API
 - MercadoPago
+- Resend
 
 ---
 
