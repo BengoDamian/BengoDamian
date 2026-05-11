@@ -258,26 +258,86 @@ Prefiero sistemas simples, entendibles y que puedan mantenerse y evolucionar rá
 - React
 - TypeScript
 - Tailwind CSS
-- PWA / Web Push
+- HTML
+- CSS
+- JavaScript
+- PWA
+- Web Push
+- Responsive Design
+- UX/UI orientada a conversión
 
-### Backend / Base de datos
+### Backend
 
+- Node.js
+- Next.js App Router
+- Server Actions
+- API Routes
+- Auth.js / NextAuth
+- Prisma ORM
 - Supabase
 - PostgreSQL
-- Prisma ORM
-- Auth.js / NextAuth
-- Server Actions / APIs
+- Row Level Security
+- Validaciones de datos
+- Roles y permisos
+- Webhooks
 
-### Infraestructura
+### Base de datos / Storage
+
+- PostgreSQL
+- Supabase Database
+- Supabase Storage
+- Prisma Schema
+- Migraciones / db push
+- Relaciones entre entidades
+- Modelado de datos
+
+### Infraestructura / Deploy
 
 - Vercel
-- Cloudflare
+- Cloudflare Pages
+- Cloudflare DNS
+- Supabase
+- Variables de entorno
+- Dominios personalizados
+- Deploy productivo
+- Debugging en producción
 
 ### Integraciones
 
 - Telegram Bot API
 - MercadoPago
 - Resend
+- Gmail / Email routing
+- Web Push Notifications
+- Deep links
+- Webhooks
+- APIs externas
+
+### Herramientas
+
+- Git
+- GitHub
+- GitHub Desktop
+- VS Code
+- Prisma Studio
+- Supabase Dashboard
+- Vercel Dashboard
+- Cloudflare Dashboard
+- Postman / pruebas de API
+
+### Producto / Negocio
+
+- MVPs
+- SaaS
+- Automatizaciones
+- Paneles administrativos
+- Sistemas internos
+- Plataformas administrables
+- Directorios
+- Herramientas para e-commerce
+- Flujos de pago
+- Suscripciones
+- UX simple orientada a usuarios reales
 
 ---
 
