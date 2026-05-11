@@ -20,6 +20,8 @@ Construyo MVPs y herramientas internas con foco en:
 - Sistemas internos para operaciones
 - Bots (Telegram / notificaciones)
 - Flujos con pagos y autenticación
+- Plataformas administrables
+- Herramientas para e-commerce
 
 ---
 
@@ -80,6 +82,42 @@ manteniendo rentabilidad real.
 
 ➡️ Case study (sin código):  
 https://github.com/BengoDamian/portfolio/blob/main/case-studies/mercadolibre-pricing-calculator.md
+
+---
+
+### Orientador de precios / detección de oportunidades (WIP)
+
+Herramienta orientada a vendedores de MercadoLibre para analizar productos, validar márgenes y detectar oportunidades comerciales.
+
+#### Objetivo
+
+Reducir decisiones manuales y acelerar validación de productos rentables.
+
+#### Conceptos trabajados
+
+- análisis de precios
+- validación de márgenes
+- lógica comercial
+- automatización de cálculos
+- enfoque seller-first
+
+---
+
+## Sistemas web y landings
+
+También desarrollo:
+- sitios institucionales
+- landings orientadas a conversión
+- paneles administrativos
+- sistemas internos
+- directorios
+- plataformas administrables
+
+Siempre priorizando:
+- claridad
+- velocidad
+- mantenimiento razonable
+- UX simple
 
 ---
 
