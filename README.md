@@ -1,17 +1,38 @@
 # Damián Bengochea
 
-Desarrollo productos digitales (**SaaS** y **automatizaciones**) con foco en **ejecución rápida**, **UX clara** y backends **mantenibles**.
+Desarrollo productos digitales, automatizaciones y sistemas web enfocados en resolver problemas operativos reales.
+
+Construyo MVPs y herramientas internas con foco en:
+- ejecución rápida
+- UX clara
+- arquitectura mantenible
+- integración con servicios reales
+
+---
+
+## Qué hago
+
+- SaaS y MVPs
+- Automatizaciones
+- Paneles administrativos
+- PWAs
+- Integraciones con APIs
+- Sistemas internos para operaciones
+- Bots (Telegram / notificaciones)
+- Flujos con pagos y autenticación
 
 ---
 
 ## Productos (código privado)
 
-### Quirvo — QR timbre + notificaciones + chat (WIP / MVP)
+### Quirvo — QR timbre + notificaciones + chat
 
-Hoy ya funciona para un edificio real:  
-**visitante → timbre → notificación (Telegram/PWA) → chat → cierre automático**
+Hoy ya funciona para un edificio real:
 
-**Features:**
+**visitante → timbre → notificación → chat → cierre automático**
+
+#### Features
+
 - Puertas/unidades (edificio/casa) + carga batch de unidades
 - Roles: **PUERTA_ADMIN** / **UNIDAD_ADMIN** / **RESIDENTE**
 - Preferencias por usuario: Push / Telegram / Ambos
@@ -21,27 +42,104 @@ Hoy ya funciona para un edificio real:
 - Anti-ruido: cooldown + auto-cierre por limpieza
 - Deep links desde Telegram a timbre/chat
 
-➡️ Case study (sin código): https://github.com/BengoDamian/portfolio/blob/main/case-studies/quirvo.md
+#### Arquitectura / conceptos implementados
+
+- Sistema orientado a eventos
+- Realtime updates
+- Geofencing por radio
+- Roles y permisos
+- Notificaciones multicanal
+- Deep links
+- Persistencia de eventos/mensajes
+- Limpieza automática de eventos
+- PWA + Web Push
+
+➡️ Case study (sin código):  
+https://github.com/BengoDamian/portfolio/blob/main/case-studies/quirvo.md
 
 ---
 
-### Calculadora ML (MercadoLibre Pricing Calculator) — Privado
+### Calculadora ML (MercadoLibre Pricing Calculator)
 
-Webapp para calcular precio de venta según **costo**, **margen**, **comisiones**, **cuotas** y **descuentos**, manteniendo rentabilidad.
+Webapp para calcular precio de venta según:
+- costo
+- margen
+- comisiones
+- cuotas
+- descuentos
 
-➡️ Case study (sin código): https://github.com/BengoDamian/portfolio/blob/main/case-studies/mercadolibre-pricing-calculator.md
+manteniendo rentabilidad real.
+
+#### Funcionalidades
+
+- Cálculo automático de precio objetivo
+- Simulación de cuotas y descuentos
+- Ajuste por comisión de MercadoLibre
+- Control de margen final
+- Lógica orientada a sellers reales
+
+➡️ Case study (sin código):  
+https://github.com/BengoDamian/portfolio/blob/main/case-studies/mercadolibre-pricing-calculator.md
 
 ---
 
-## Portfolio (público, sin código)
+## Experiencia práctica
 
-- Repo: https://github.com/BengoDamian/portfolio
+- Deploys productivos
+- Integraciones reales con pagos y notificaciones
+- Sistemas usados por usuarios reales
+- Manejo de roles y permisos
+- Arquitecturas fullstack mantenibles
+- Desarrollo end-to-end
+- Integración con APIs y servicios externos
+
+---
+
+## Enfoque
+
+Me interesa construir productos útiles y sistemas mantenibles antes que sobreingeniería innecesaria.
+
+Prioridad:
+- velocidad de iteración
+- claridad operativa
+- UX simple
+- automatización
+- mantenimiento razonable
+
+---
+
+## Portfolio público
+
+- Repo:
+  https://github.com/BengoDamian/portfolio
 
 ---
 
 ## Stack
 
-Next.js, TypeScript, Tailwind, Supabase (Auth/Postgres), Vercel/Cloudflare, Telegram Bot, PWA/Web Push, MercadoPago.
+### Frontend
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- PWA / Web Push
+
+### Backend
+
+- Supabase
+- PostgreSQL
+- Auth
+- Server Actions / APIs
+
+### Infraestructura
+
+- Vercel
+- Cloudflare
+
+### Integraciones
+
+- Telegram Bot API
+- MercadoPago
 
 ---
 
